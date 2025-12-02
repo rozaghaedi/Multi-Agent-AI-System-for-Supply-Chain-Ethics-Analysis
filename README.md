@@ -66,33 +66,42 @@ The system implements a hierarchical multi-agent workflow with three operational
 - NLTK for natural language processing (VADER sentiment analysis)
 - PyMuPDF for document processing
 
-### Installation
+## Installation
 
 Clone the repository:
-
 ```bash
-
 git clone https://github.com/yourusername/Multi-Agent-System-for-Supply-Chain-Ethics.git
 cd Multi-Agent-System-for-Supply-Chain-Ethics
-
 ```
 
-Create virtual environment and install dependencie
-
+Create virtual environment and install dependencies:
 ```bash
-
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
 ```
 
 Install NLTK data:
-
 ```bash
-
 python -c "import nltk; nltk.download('vader_lexicon')"
+```
 
+## Jupyter Notebook
+
+The complete implementation is available as an interactive Jupyter notebook:
+
+📓 **[Multi-Agent-System-for-Supply-Chain-Ethics.ipynb](Multi-Agent-System-for-Supply-Chain-Ethics.ipynb)**
+
+The notebook contains:
+- Complete 7-agent system implementation (29 custom tools)
+- Data loading and preprocessing from KnowTheChain benchmark
+- Agent definitions and orchestration logic
+- Interactive analysis examples and queries
+- Visualizations and detailed results
+
+To run the notebook:
+```bash
+jupyter notebook Multi-Agent-System-for-Supply-Chain-Ethics.ipynb
 ```
 
 **Usage**
