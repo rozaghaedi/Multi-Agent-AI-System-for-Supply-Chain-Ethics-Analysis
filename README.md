@@ -7,6 +7,6 @@
 
 
 
-![Pipeline](figures/pipeline.png)
+![Pipeline](flowchart_cover_16x9 (1).png)
 
 ---
